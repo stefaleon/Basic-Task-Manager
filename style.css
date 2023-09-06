@@ -1,0 +1,73 @@
+* {	
+	font-family: 'Roboto', sans-serif;
+}
+
+.list {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 1rem;
+	margin: 1rem;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 200px;
+	position: relative;
+}
+
+.item {
+	border: 1px solid #eee;
+	background-color: #f9f9f9;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+	position: relative;
+	min-height: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.remove-button {	
+	border: none;	
+	cursor: pointer;	
+}
+
+.add-task-button {
+	margin: 10px;
+	font-size: 28px;
+	cursor: pointer;	
+	
+}
+
+.remove-list-button {	
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px;
+	font-weight: bold;
+}
+
+#addList {
+	border: 1px solid #aaa;
+	padding: 0.3rem 1rem;
+	margin: 5px;
+	border-radius: 5px;	
+}
+
+h1 {
+	font-size: 21px;
+}
+
+button {	
+	background: none;
+	border: none;
+	padding: 0;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	color: inherit;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
